@@ -1,0 +1,214 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+.page-card{
+    position: relative;
+    background-color: #34495E;
+    width: 1087px;
+    height: 387px;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.page-card-content{
+    display: flex;
+}
+
+.page-card-image{
+    margin-top: 43px;
+    margin-left: 44px;
+    border: 5px solid white;
+    border-radius: 180px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(179, 179, 179);
+    object-fit: contain;
+}
+
+.page-card-form{
+    width: 742px;
+    font-size: 32px;
+    margin-top: 32px;
+}
+
+
+.page-card-form h1{
+    height: 43px;
+    font-size: 32px;
+}
+
+.page-card-form hr{
+    border: 2px solid #18D398;
+    margin: 0;
+}
+.page-card-info{
+    width: 690px;
+    height: 188px;
+    margin-left: 50px;
+    white-space: pre;
+}
+.page-card-info input, select{
+    color:black;
+}
+.page-card-buttons{
+    display: flex;
+    margin-top: 24px;
+}
+.page-card-button{
+    cursor: pointer;
+    width: 272px;
+    height: 75px;
+    background-color: #18D398;
+    border: none;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+@media (max-width:1440px) { 
+    .page-card{
+        width: 1270px;
+        height: 387px;
+        margin-left:  160px;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .page-card-image{
+        margin-top: 43px;
+        margin-left: 44px;
+        border-radius: 180px;
+        width: 300px;
+        height: 300px;
+    }
+    .page-card-form{
+        width: 775px;
+        font-size: 32px;
+        margin-top: 32px;
+        margin-left: 100px;
+    }
+    .page-card-info{
+        width: 600px;
+        height: 188px;
+        margin-left: 50px;
+        white-space: pre;
+    }
+    .page-card-buttons{
+        margin-top: 24px;
+    }
+    .page-card-button{
+        width: 200px;
+        height: 75px;
+        margin-left: 50px;
+        border-radius: 20px;
+    }   
+}
+@media (max-width:1080px) { 
+    .page-card{
+        width: 850px;
+        height: 387px;
+    }
+    
+    .page-card-image{
+        margin-top: 45px;
+        margin-left: 44px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .page-card-form{
+        width: 367px;
+        font-size: 24px;
+        margin-top: 32px;
+    }
+    .page-card-info{
+        width: 290px;
+        height: 188px;
+        margin-left: 50px;
+    }
+    .page-card-buttons{
+        margin-top: 24px;
+    }
+    .page-card-button{
+        font-size: 24px;
+        width: 272px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    
+}
+@media (max-width:768px) { 
+    .page-card{
+        width: 595px;
+        height: 340px;
+    }   
+    .page-card-image{
+        margin-top: 70px;
+        margin-left: 10px;
+        width: 200px;
+        height: 200px;
+    } 
+    .page-card-form{
+        width: 380px;
+        font-size: 24px;
+        margin-top: 32px;
+        margin-left: 0px;
+    }
+    .page-card-info{
+        width: 175px;
+        height: 135px;
+        margin-left: 15px;
+    }
+    .page-card-buttons{
+        margin-top: 0px;
+    }
+    .page-card-button{
+        font-size: 24px;
+        width: 175px;
+        margin-top: 50px;
+        height: 55px;
+        margin-left: 10px;
+        border-radius: 20px;
+    }   
+}
+@media (max-width:728px) { 
+    .page-card{
+        width: 340px;
+        height: 340px;
+        margin-left:  80px;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    .page-card-image{
+        margin-top: 125px;
+        margin-left: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .page-card-form{
+        width: 230px;
+        font-size: 24px;
+        margin-top: 32px;
+        margin-left: 0px;
+    }
+    .page-card-info{
+        width: 175px;
+        height: 135px;
+        margin-left: 15px;
+    }
+    .page-card-buttons{
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .page-card-button{
+        font-size: 24px;
+        width: 200px;
+        margin-top: 10px;
+        height: 50px;
+        margin-left: 10px;
+        border-radius: 20px;
+    }   
+}
